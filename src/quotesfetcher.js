@@ -16,11 +16,11 @@ function FetchQuote() {
         })
     },[])
         return(
-            <>
-            <h1>{quote}</h1>
-            <p>{author}</p>
-            <img src={img} alt="bgimg" />
-            </>
+            <div className="main">
+            <h1 className="quote">{quote}</h1>
+            <p className="author">{author}</p>
+            <img className="img" src={img} alt="bgimg" />
+            </div>
         )
 }
 
